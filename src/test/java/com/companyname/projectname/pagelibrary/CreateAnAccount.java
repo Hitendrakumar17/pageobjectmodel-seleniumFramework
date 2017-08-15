@@ -1,16 +1,17 @@
 package com.companyname.projectname.pagelibrary;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
-import java.util.List;
-import java.util.logging.Logger;
 
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class CreateAnAccount {
+public class CreateAnAccount{
 	
 	WebDriver driver;
 	static Logger log = Logger.getLogger(CreateAnAccount.class.getName());

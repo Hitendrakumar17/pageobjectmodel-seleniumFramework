@@ -1,15 +1,14 @@
 package com.companyname.projectname.pagelibrary;
 
-import java.util.logging.Logger;
 
+
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.companyname.projectname.testbase.TestBase;
 import com.relevantcodes.extentreports.LogStatus;
-import com.relevantcodes.extentreports.model.Test;
 
 public class SignIn extends TestBase{
 	
