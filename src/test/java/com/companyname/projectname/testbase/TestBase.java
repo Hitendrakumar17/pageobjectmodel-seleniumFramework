@@ -78,29 +78,35 @@ public class TestBase {
 
 	}
 
-	/**
-	 * This method initialize browser object
-	 * 
-	 * @param browser
-	 * @return browser driver
-	 */
-	public WebDriver selectBrowser(String browser) {
-		if (browser.equals("firefox") || browser.equals("FIREFOX")) {
-			driver = new FirefoxDriver();
-			driver.manage().window().maximize();
-			return driver;
-		} else if (browser.equals("chrome") || browser.equals("CHROME")) {
-			System.out.println("chrome browser");
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\com\\actiTime\\BrowserDrivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-			driver.manage().window().maximize();
-			return driver;
-		} else if (browser.equals("ie") || browser.equals("IE")) {
-			driver = new InternetExplorerDriver();
-			driver.manage().window().maximize();
-			return driver;
+	//3.0.1
+	//FF:-47.0.2
+	//0.15
+	public void selectBrowser(String browser){
+		if(System.getProperty("os.name").contains("Window")){
+			if(browser.equalsIgnoreCase("firefox")){
+				//https://github.com/mozilla/geckodriver/releases
+				System.out.println(System.getProperty("user.dir"));
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver.exe");
+				driver = new FirefoxDriver();
+			}
+			else if(browser.equalsIgnoreCase("chrome")){
+				//https://chromedriver.storage.googleapis.com/index.html
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
+				driver = new ChromeDriver();
+			}
 		}
-		return null;
+		else if(System.getProperty("os.name").contains("Mac")){
+			System.out.println(System.getProperty("os.name"));
+			if(browser.equalsIgnoreCase("firefox")){
+				System.out.println(System.getProperty("user.dir"));
+				System.setProperty("webdriver.firefox.marionette", System.getProperty("user.dir")+"/drivers/geckodriver");
+				driver = new FirefoxDriver();
+			}
+			else if(browser.equalsIgnoreCase("chrome")){
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver");
+				driver = new ChromeDriver();
+			}
+		}
 	}
 
 	public void expliciteWait(WebElement element, int timeToWaitInSec) {
