@@ -54,7 +54,7 @@ public class TestBase {
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		extent = new ExtentReports(System.getProperty("user.dir") + "/src/main/java/com/test/automation/uiAutomation/report/test" + formater.format(calendar.getTime()) + ".html", false);
+		extent = new ExtentReports(System.getProperty("user.dir") + "/src/test/java/com/companyname/projectname/testReport/test" + formater.format(calendar.getTime()) + ".html", false);
 	}
 
 	public void init() throws IOException {
