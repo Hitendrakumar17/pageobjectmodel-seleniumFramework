@@ -1,0 +1,114 @@
+2018-01-20 16:20:25 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:20:31 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:26:32 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:26:33 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:26:33 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:26:34 INFO  CreateAnAccount:55 - selecting Mr Radion Button
+2018-01-20 16:26:34 INFO  CreateAnAccount:98 - entering first name
+2018-01-20 16:26:35 INFO  CreateAnAccount:103 - entering last name
+2018-01-20 16:26:35 INFO  CreateAnAccount:108 - entering password
+2018-01-20 16:26:35 INFO  CreateAnAccount:118 - clicking on day drop down
+2018-01-20 16:26:36 INFO  CreateAnAccount:124 - selecting day in day day drop down
+2018-01-20 16:26:36 INFO  CreateAnAccount:129 - clicking on month drop down
+2018-01-20 16:26:38 INFO  CreateAnAccount:136 - selecting month in month drop down
+2018-01-20 16:26:38 INFO  CreateAnAccount:143 - clicking on year drop down
+2018-01-20 16:26:39 INFO  CreateAnAccount:149 - clickin on year option
+2018-01-20 16:26:41 INFO  CreateAnAccount:156 - entering your address first name
+2018-01-20 16:26:42 INFO  CreateAnAccount:161 - entering your address lastname name
+2018-01-20 16:26:42 INFO  CreateAnAccount:166 - entering your primary Address
+2018-01-20 16:26:42 INFO  CreateAnAccount:171 - entering your secondry Address
+2018-01-20 16:26:42 INFO  CreateAnAccount:176 - entering your Address city name
+2018-01-20 16:26:42 INFO  CreateAnAccount:181 - clicking on your Address State Drop Down
+2018-01-20 16:26:43 INFO  CreateAnAccount:187 - entering your Address zip code
+2018-01-20 16:26:43 INFO  CreateAnAccount:192 - clicking on your Address Country Name
+2018-01-20 16:26:44 INFO  CreateAnAccount:195 - selecting Country Name
+2018-01-20 16:26:44 INFO  CreateAnAccount:200 - entering your Address phone nummber
+2018-01-20 16:26:44 INFO  CreateAnAccount:210 - clicking on register
+2018-01-20 16:26:49 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:26:50 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:26:50 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:26:52 INFO  CreateAnAccount:61 - checking for creat an accoutn error message
+2018-01-20 16:35:13 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:35:14 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:35:14 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:35:15 INFO  CreateAnAccount:55 - selecting Mr Radion Button
+2018-01-20 16:35:16 INFO  CreateAnAccount:98 - entering first name
+2018-01-20 16:35:16 INFO  CreateAnAccount:103 - entering last name
+2018-01-20 16:35:16 INFO  CreateAnAccount:108 - entering password
+2018-01-20 16:35:16 INFO  CreateAnAccount:118 - clicking on day drop down
+2018-01-20 16:35:17 INFO  CreateAnAccount:124 - selecting day in day day drop down
+2018-01-20 16:35:17 INFO  CreateAnAccount:129 - clicking on month drop down
+2018-01-20 16:35:19 INFO  CreateAnAccount:136 - selecting month in month drop down
+2018-01-20 16:35:19 INFO  CreateAnAccount:143 - clicking on year drop down
+2018-01-20 16:35:20 INFO  CreateAnAccount:149 - clickin on year option
+2018-01-20 16:35:22 INFO  CreateAnAccount:156 - entering your address first name
+2018-01-20 16:35:22 INFO  CreateAnAccount:161 - entering your address lastname name
+2018-01-20 16:35:22 INFO  CreateAnAccount:166 - entering your primary Address
+2018-01-20 16:35:22 INFO  CreateAnAccount:171 - entering your secondry Address
+2018-01-20 16:35:23 INFO  CreateAnAccount:176 - entering your Address city name
+2018-01-20 16:35:23 INFO  CreateAnAccount:181 - clicking on your Address State Drop Down
+2018-01-20 16:35:23 INFO  CreateAnAccount:187 - entering your Address zip code
+2018-01-20 16:35:23 INFO  CreateAnAccount:192 - clicking on your Address Country Name
+2018-01-20 16:35:24 INFO  CreateAnAccount:195 - selecting Country Name
+2018-01-20 16:35:24 INFO  CreateAnAccount:200 - entering your Address phone nummber
+2018-01-20 16:35:24 INFO  CreateAnAccount:210 - clicking on register
+2018-01-20 16:35:30 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:35:31 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:35:31 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:35:33 INFO  CreateAnAccount:61 - checking for creat an accoutn error message
+2018-01-20 16:41:11 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:41:12 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:41:12 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:41:13 INFO  CreateAnAccount:55 - selecting Mr Radion Button
+2018-01-20 16:41:14 INFO  CreateAnAccount:98 - entering first name
+2018-01-20 16:41:14 INFO  CreateAnAccount:103 - entering last name
+2018-01-20 16:41:14 INFO  CreateAnAccount:108 - entering password
+2018-01-20 16:41:14 INFO  CreateAnAccount:118 - clicking on day drop down
+2018-01-20 16:41:15 INFO  CreateAnAccount:124 - selecting day in day day drop down
+2018-01-20 16:41:15 INFO  CreateAnAccount:129 - clicking on month drop down
+2018-01-20 16:41:16 INFO  CreateAnAccount:136 - selecting month in month drop down
+2018-01-20 16:41:17 INFO  CreateAnAccount:143 - clicking on year drop down
+2018-01-20 16:41:18 INFO  CreateAnAccount:149 - clickin on year option
+2018-01-20 16:41:20 INFO  CreateAnAccount:156 - entering your address first name
+2018-01-20 16:41:20 INFO  CreateAnAccount:161 - entering your address lastname name
+2018-01-20 16:41:20 INFO  CreateAnAccount:166 - entering your primary Address
+2018-01-20 16:41:20 INFO  CreateAnAccount:171 - entering your secondry Address
+2018-01-20 16:41:21 INFO  CreateAnAccount:176 - entering your Address city name
+2018-01-20 16:41:21 INFO  CreateAnAccount:181 - clicking on your Address State Drop Down
+2018-01-20 16:41:21 INFO  CreateAnAccount:187 - entering your Address zip code
+2018-01-20 16:41:21 INFO  CreateAnAccount:192 - clicking on your Address Country Name
+2018-01-20 16:41:22 INFO  CreateAnAccount:195 - selecting Country Name
+2018-01-20 16:41:22 INFO  CreateAnAccount:200 - entering your Address phone nummber
+2018-01-20 16:41:22 INFO  CreateAnAccount:210 - clicking on register
+2018-01-20 16:41:27 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:41:28 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:41:28 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:41:30 INFO  CreateAnAccount:61 - checking for creat an accoutn error message
+2018-01-20 16:41:40 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:41:41 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:41:41 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:41:43 INFO  CreateAnAccount:55 - selecting Mr Radion Button
+2018-01-20 16:41:43 INFO  CreateAnAccount:98 - entering first name
+2018-01-20 16:41:43 INFO  CreateAnAccount:103 - entering last name
+2018-01-20 16:41:43 INFO  CreateAnAccount:108 - entering password
+2018-01-20 16:41:43 INFO  CreateAnAccount:118 - clicking on day drop down
+2018-01-20 16:41:44 INFO  CreateAnAccount:124 - selecting day in day day drop down
+2018-01-20 16:41:44 INFO  CreateAnAccount:129 - clicking on month drop down
+2018-01-20 16:41:45 INFO  CreateAnAccount:136 - selecting month in month drop down
+2018-01-20 16:41:46 INFO  CreateAnAccount:143 - clicking on year drop down
+2018-01-20 16:41:47 INFO  CreateAnAccount:149 - clickin on year option
+2018-01-20 16:41:49 INFO  CreateAnAccount:156 - entering your address first name
+2018-01-20 16:41:49 INFO  CreateAnAccount:161 - entering your address lastname name
+2018-01-20 16:41:49 INFO  CreateAnAccount:166 - entering your primary Address
+2018-01-20 16:41:49 INFO  CreateAnAccount:171 - entering your secondry Address
+2018-01-20 16:41:49 INFO  CreateAnAccount:176 - entering your Address city name
+2018-01-20 16:41:50 INFO  CreateAnAccount:181 - clicking on your Address State Drop Down
+2018-01-20 16:41:50 INFO  CreateAnAccount:187 - entering your Address zip code
+2018-01-20 16:41:50 INFO  CreateAnAccount:192 - clicking on your Address Country Name
+2018-01-20 16:41:51 INFO  CreateAnAccount:195 - selecting Country Name
+2018-01-20 16:41:51 INFO  CreateAnAccount:200 - entering your Address phone nummber
+2018-01-20 16:41:51 INFO  CreateAnAccount:210 - clicking on register
+2018-01-20 16:41:56 INFO  SignIn:35 - clicking on sign in link
+2018-01-20 16:41:57 INFO  SignIn:53 - entering email address to create an account
+2018-01-20 16:41:57 INFO  SignIn:73 - Clicking on create an account
+2018-01-20 16:41:59 INFO  CreateAnAccount:61 - checking for creat an accoutn error message
