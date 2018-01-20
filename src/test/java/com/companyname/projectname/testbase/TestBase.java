@@ -51,10 +51,11 @@ public class TestBase {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	
+	// Added few lines of code today 20/01/2018
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		extent = new ExtentReports(System.getProperty("user.dir") + "/src/test/java/com/companyname/projectname/testReport/test" + formater.format(calendar.getTime()) + ".html", false);
+		extent = new ExtentReports(System.getProperty("user.dir") + "\\src\\test\\java\\com\\companyname\\projectname\\testReport\\test" + formater.format(calendar.getTime()) + ".html", false);
 	}
 
 	public void init() throws IOException {
@@ -67,7 +68,7 @@ public class TestBase {
 	}
 
 	public void loadPropertiesFile() throws IOException {
-		f = new File(System.getProperty("user.dir") + "//src//test//java//com//companyname//projectname//config//config.properties");
+		f = new File(System.getProperty("user.dir") + "\\src\\test\\java\\com\\companyname\\projectname\\config\\config.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 
@@ -86,12 +87,12 @@ public class TestBase {
 			if(browser.equalsIgnoreCase("firefox")){
 				//https://github.com/mozilla/geckodriver/releases
 				System.out.println(System.getProperty("user.dir"));
-				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", "c:\\bin\\geckodriver.exe");
 				driver = new FirefoxDriver();
 			}
 			else if(browser.equalsIgnoreCase("chrome")){
 				//https://chromedriver.storage.googleapis.com/index.html
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\bin\\chromedriver.exe");
 				driver = new ChromeDriver();
 			}
 		}
